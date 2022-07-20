@@ -265,7 +265,7 @@ color: rgba(22, 22, 22, 0.7);
 
     .footer-content{
 
-        flex-direction: column;
+        flex-direction: row;
     }
 
 
