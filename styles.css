@@ -250,6 +250,7 @@ color: rgba(22, 22, 22, 0.7);
     .header{
     
         flex-direction: column;
+        flex-wrap: wrap;
         
     }
 
@@ -266,6 +267,7 @@ color: rgba(22, 22, 22, 0.7);
     .footer-content{
 
         flex-direction: row;
+        flex-wrap: wrap;
     }
 
 
