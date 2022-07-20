@@ -95,7 +95,17 @@ body, html {
     
 }
 
+.upcoming{
 
+
+    display: flex;
+    flex-direction: row;
+    background-color:#E8E8E8;
+
+    
+
+
+}
 
 .transfer-button{ 
 
@@ -251,6 +261,30 @@ color: rgba(22, 22, 22, 0.7);
 
 
         width:50%;
+    }
+
+    .footer-content{
+
+        flex-direction: column;
+    }
+
+
+}
+
+
+@media only screen and (min-width: 688px) and (max-width: 992px){
+    
+    .main-content{
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+
+    }
+    .grid-container{
+
+        grid-template-columns:repeat(2, 1fr);
+        margin-top: 50px;
+        margin-left: 0px;
     }
 
     .footer-content{
